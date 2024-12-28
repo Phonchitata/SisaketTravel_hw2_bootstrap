@@ -40,8 +40,104 @@
             </div>
         </nav>
     </header>
-    <main>
-        <!--ส่วนเนื้อหาหลัก-->
+    <main role="main" class="pt-5 mt-4">
+        <!-- Main Content -->
+        <div class="flex-grow-1 py-5 bg-white">
+            <div class="container">
+                <div class="row g-4 mb-5">
+                    <div class="col-md-4">
+                        <div
+                            class="card h-100 border-0 shadow-sm rounded-4 text-center">
+                            <div class="card-body p-4">
+                                <i
+                                    class="fas fa-map-marker-alt fa-2x mb-3 text-secondary"></i>
+                                <h4 class="card-title mb-3">ที่อยู่</h4>
+                                <p class="card-text mb-0">123 ถนนศรีสะเกษ อ.เมืองศรีสะเกษ 33170</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div
+                            class="card h-100 border-0 shadow-sm rounded-4 text-center">
+                            <div class="card-body p-4">
+                                <i
+                                    class="fas fa-clock fa-2x mb-3 text-secondary"></i>
+                                <h4 class="card-title mb-3">เวลาทำการ</h4>
+                                <p class="card-text mb-2">วันจันทร์ -
+                                    วันศุกร์</p>
+                                <p class="card-text mb-2">08:00 - 16:00 น.</p>
+                                <p class="card-text mb-0">หยุดวันเสาร์ - อาทิตย์
+                                    และวันหยุดนักขัตฤกษ์</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div
+                            class="card h-100 border-0 shadow-sm rounded-4 text-center">
+                            <div class="card-body p-4">
+                                <i
+                                    class="fas fa-phone-alt fa-2x mb-3 text-secondary"></i>
+                                <h4
+                                    class="card-title mb-3">ช่องทางการติดต่อ</h4>
+                                <p class="card-text mb-2">โทร:
+                                    012-345-6789</p>
+                                <p class="card-text mb-0">อีเมล:
+                                    ssk@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Button -->
+                <div class="text-center">
+                    <button class="btn rounded-pill px-4 py-3"
+                        data-bs-toggle="modal" data-bs-target="#contactModal"
+                        style="background-color: #eaa225; color: white;">
+                        <i class="fas fa-envelope me-2"></i>ติดต่อเรา
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Form Modal -->
+        <div class="modal fade" id="contactModal" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content rounded-4">
+                    <div class="modal-header border-0"
+                        style="background-color: #eaa225;">
+                        <h5 class="modal-title text-white">ติดต่อเรา</h5>
+                        <button type="button" class="btn-close btn-close-white"
+                            data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body p-4">
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label">ชื่อ-นามสกุล</label>
+                                <input type="text" class="form-control"
+                                    required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">อีเมล</label>
+                                <input type="email" class="form-control"
+                                    required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">ข้อความ</label>
+                                <textarea class="form-control" rows="4"
+                                    required></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit"
+                                    class="btn rounded-pill px-4"
+                                    style="background-color: #eaa225; color: white;">
+                                    ส่งข้อความ
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <!--ส่วนท้าย-->
