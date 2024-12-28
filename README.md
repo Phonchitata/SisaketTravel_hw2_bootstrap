@@ -1,1 +1,56 @@
 # SisaketTravel_hw2_bootstrap
+# Git command used in this hw2
+ - git clone https://github.com/Phonchitata/SisaketTravel_hw2_bootstrap.git
+ - git checkout -b development 
+ - git add .
+ - git commit -m "สร้างโครงสร้างโปรเจคเริ่มต้น"
+ - git add .
+ - git commit -m "เพิ่มรูป"
+ - git add .
+ - git commit -m "เพิ่มโครงสร้างพื้นฐานหน้า index.html"
+ - git add .
+ - git commit -m "เพิ่มส่วนเมนูนำทาง"
+ - git add .
+ - git commit -m "เพิ่ม Hero Section"
+ - git add .
+ - git commit -m "เพิ่ม Highlights Section"
+ - git add .
+ - git commit -m "เพิ่มส่วนท้าย footer"
+ - git add .
+ - git commit -m "เพิ่มโครงสร้าง HTML พื้นฐานหน้า About"
+ - git add .
+ - git commit -m "เพิ่มโครงสร้างส่วนเมนูนำทาง หน้า About"
+ - git add .
+ - git commit -m "เพิ่มโครงสร้างส่วนเนื้อหาหลัก หน้า About"
+ - git add .
+ - git commit -m "เพิ่มโครงสร้างส่วนท้าย หน้า About" 
+ - git add .
+ - git commit -m "เพิ่มโครงสร้าง HTML พื้นฐานหน้า Measure" 
+ - git add .
+ - git commit -m "เพิ่มโครงสร้างส่วนเมนูนำทาง หน้า Measure"
+ - git add .
+ - git commit -m "เพิ่มโครงสร้างส่วนเมนูนำทาง หน้า Measure"
+ - git add .
+ - git commit -m "เพิ่มโครงสร้างส่วนเนื้อหาหลัก หน้า Measure"
+ - git add .
+ - git commit -m "เพิ่มโครงสร้างส่วนท้าย หน้า Measure"   
+ - git add .
+ - git commit -m "เพิ่มโครงสร้าง HTML พื้นฐานหน้า Nature"
+ - git add .
+ - git commit -m "เพิ่มโครงสร้างส่วนเมนูนำทาง หน้า Nature" 
+ - git add . 
+ - git commit -m "เพิ่มโครงสร้างส่วนเนื้อหาหลัก หน้า Nature"
+ - git add . 
+ - git commit -m "เพิ่มโครงสร้างส่วนท้าย หน้า Nature"  
+ - git add .
+ - git commit -m "เพิ่มโครงสร้าง HTML พื้นฐานหน้าติดต่อ"  
+ - git add . 
+ - git commit -m "เพิ่มโครงสร้างส่วนเมนูนำทาง หน้าติดต่อ"  
+ - git add .
+ - git commit -m "เพิ่มโครงสร้างส่วนเนื้อหาหลักหน้าติดต่อ"  
+ - git add . 
+ - git commit -m "เพิ่มโครงสร้างส่วนท้ายหน้าติดต่อ"   
+ - git add .
+ - git commit -m "เพิ่ม README.md"
+ - git push origin development 
+

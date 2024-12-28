@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>แนะนำสถานที่ท่องเที่ยวในจังหวัดศรีสะเกษ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body style="font-family: 'Prompt', sans-serif">
+    <!-- ส่วนเมนูนําทาง  -->
+    <header class="bg-warning shadow-lg fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid px-0">
+                <a class="navbar-brand me-auto" href="index.html">
+                    <img src="images/logo.png" alt="Logo" width="50" />SISAKET
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html" data-bs-toggle="pill" role="tab"
+                                aria-selected="true">หน้าหลัก</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">สถานที่ท่องเที่ยว</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">ติดต่อ</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex p-3">
+                        <input class="form-control me-2" type="search" placeholder="ค้นหา" aria-label="Search" />
+                        <button class="btn btn-outline-dark" type="submit">ค้นหา</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="pt-5">
+        <!-- Hero Section -->
+        <section class="bg-light py-4">
+            <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+                <!-- Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+                </div>
+
+                <!-- Carousel Items -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="height: 75vh;">
+                        <img src="https://shorturl.asia/AyCBc" class="d-block w-100 h-100" alt="Slide 1"
+                            style="object-fit: cover;" />
+                        <div class="carousel-caption text-center">
+                            <h1 class="fw-bold">ยินดีต้อนรับสู่ศรีสะเกษ</h1>
+                            <p>พาคุณพบกับสถานที่ท่องเที่ยวที่น่าสนใจในจังหวัดศรีสะเกษ</p>
+                            <a href="about.html" class="btn btn-warning mt-3">อ่านต่อ</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="height: 75vh;">
+                        <img src="https://shorturl.asia/uUhLg" class="d-block w-100 h-100" alt="Slide 2"
+                            style="object-fit: cover;" />
+                        <div class="carousel-caption text-center">
+                            <h1 class="fw-bold">ธรรมชาติและวัฒนธรรม</h1>
+                            <p>สัมผัสบรรยากาศอันงดงามของธรรมชาติและวัฒนธรรมพื้นบ้าน</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="height: 75vh;">
+                        <img src="https://shorturl.asia/CyhHQ" class="d-block w-100 h-100" alt="Slide 3"
+                            style="object-fit: cover;" />
+                        <div class="carousel-caption text-center">
+                            <h1 class="fw-bold">อาหารพื้นเมือง</h1>
+                            <p>ลิ้มลองอาหารอร่อยที่เป็นเอกลักษณ์ของศรีสะเกษ</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Highlights Section -->
+        <section id="features" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">ไฮไลท์</h2>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-5">
+                        <a href="measure.html" class="text-decoration-none">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h3 class="card-title">🛕วัด</h3>
+                                    <p class="card-text">สถาปัตยกรรมขอมโบราณ พลังแห่งศรัทธา</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-5">
+                        <a href="nature.html" class="text-decoration-none">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h3 class="card-title">🌳ธรรมชาติ</h3>
+                                    <p class="card-text">มนต์เสน่ห์แห่งขุนเขา สีสันแห่งผืนป่าอีสาน</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>ติดต่อ</h5>
+                    <p>ที่อยู่: 123 ถนนศรีสะเกษ อ.เมืองศรีสะเกษ 33170</p>
+                    <p>อีเมล:ssk@gmail.com</p>
+                    <p>โทร: 012-345-6789</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>ติดตามเรา</h5>
+                    <a href="https://shorturl.asia/WXR3q" style="text-decoration: none; outline: none;">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" width="30"></a>
+                    <a href="https://instagram.com" style="text-decoration: none; outline: none;">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" width="30">
+                    </a>
+                    <a href="https://twitter.com" style="text-decoration: none; outline: none;">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" width="40">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <h5>ลิงก์ด่วน</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white" class="hover:text-white">หน้าแรก</a></li>
+                        <li><a href="about.html" class="text-white">สถานที่ ท่องเที่ยว</a></li>
+                        <li><a href="contact.html" class="text-white">ติดต่อ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 text-end">
+                    <p>&copy; 2024 จังหวัดศรีสะเกษ | สถานที่ท่องเที่ยว</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
